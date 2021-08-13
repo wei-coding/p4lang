@@ -24,7 +24,7 @@ source ~/.bashrc
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 sudo python2.7 get-pip.py
 
-sudo pip2.7 install setuptools psutil crcmod scapy ipaddr ply grpcio
+sudo pip2.7 install setuptools psutil crcmod scapy ipaddr ply grpcio google-api-python-client
 
 # --- Mininet --- #
 sudo apt install mininet
@@ -47,6 +47,7 @@ cd python
 sudo python2.7 setup.py build
 sudo python2.7 setup.py install
 cd ../..
+sudo cp -r /usr/local/lib/python2.7/dist-packages/protobuf-3.17.3-py2.7.egg/google /usr/local/lib/python2.7/dist-packages/google/protobuf
 
 # --- gRPC --- #
 git clone https://github.com/grpc/grpc.git
@@ -127,5 +128,6 @@ sudo ldconfig
 # --- Tutorials --- #
 cd ~/P4
 git clone https://github.com/p4lang/tutorials
-cp -r ~/P4/protobuf/python/google ~/P4/tutorials/utils/google
-echo "Install finished!"
+echo "*************************"
+echo 'Install finished! Tutorial documents placed at ~/P4/tutorials'
+echo '*************************'
