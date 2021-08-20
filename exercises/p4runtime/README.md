@@ -186,3 +186,7 @@ solution/my_controller.py
 Congratulations, your implementation works! Move onto the next assignment
 [mri](../mri)!
 
+
+## Note
+
+**內文只有把h1和h2串通而已，要串h3要另外再寫邏輯**
