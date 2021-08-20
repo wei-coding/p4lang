@@ -2,7 +2,8 @@
 
 p4交換機語言練習
 
-**內容修改自[p4lang/tutorials](https://github.com/wei-coding/p4lang.git)**
+**內容修改自[p4lang/tutorials](https://github.com/wei-coding/p4lang-practice)**
+**因為只有`exercises/`資料夾有變更，因此只記錄該資料夾**
 
 ## 環境建立
 
